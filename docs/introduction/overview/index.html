@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A collaborative library of Do-it-Yourself Biology initiatives">
+<meta http-equiv="Content-Language" content="">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<title>Overview of the DIYbiosphere</title>
+<link rel="canonical" href="sphere.diybio.org/docs/introduction/overview/">
+<link rel="alternate" type="application/rss+xml" title="DIYbiosphere" href="sphere.diybio.org/feed.xml">
+<!-- Semantic UI --><link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+<!-- FONTS --><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css">
+<script src="https://use.fontawesome.com/2e5ba52749.js"></script><link type="text/css" rel="stylesheet" href="/assets/css/main.css">
+<!-- Begin Jekyll SEO tag v2.1.0 --><title>Overview of the DIYbiosphere - DIYbiosphere</title>
+<meta property="og:title" content="Overview of the DIYbiosphere">
+<meta name="description" content="A collaborative library of Do-it-Yourself Biology initiatives">
+<meta property="og:description" content="A collaborative library of Do-it-Yourself Biology initiatives">
+<link rel="canonical" href="sphere.diybio.org/docs/introduction/overview/">
+<meta property="og:url" content="sphere.diybio.org/docs/introduction/overview/">
+<meta property="og:site_name" content="DIYbiosphere">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@DIYbiosphere">
+<script type="application/ld+json">
+{"@context": "http://schema.org",
+"@type": "WebPage",
+"headline": "Overview of the DIYbiosphere",
+"description": "A collaborative library of Do-it-Yourself Biology initiatives",
+"url": "sphere.diybio.org/docs/introduction/overview/"}</script><!-- End Jekyll SEO tag --><!-- Google analytics tracking code --><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-78642734-1', 'auto');
+    ga('send', 'pageview');
+  </script><!-- Leaflet --><!--<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"  />--><!-- Mapbox --><link href="https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css" rel="stylesheet">
+<!-- Algolia InstantSearch --><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
+<!-- Algolia DocSearch --><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css">
+</head>
+<body class="Site">
+
+    <header><nav><div class="ui huge borderless menu">
+      <div class="ui container">
+        <!-- logo -->
+        <div class="item">
+          <a href="/">
+          <img class="ui image" src="/assets/img/sphere-logo-alpha.png"></a>
+        </div>
+        <!-- right menu -->
+        <div class="right menu">
+          
+          <div class="item">
+            <div class="ui transparent right icon input">
+  <input type="search" placeholder="Search Entries" data-algolia-search="true"><i class="search icon"></i>
+</div>
+
+          </div>
+          
+          <div class="ui dropdown item">
+            <b>LIBRARY</b>
+            <i class="angle down icon"></i>
+            <div class="menu">
+              <a class="item" href="/library/"><i class="archive icon"></i> All Entries</a>
+              <div class="divider"></div>
+              <div class="header">By Collection</div>
+              <a class="item" href="/library/projects/"><i class="travel icon"></i> Projects</a>
+              <a class="item" href="/library/startups/"><i class="rocket icon"></i> Startups </a>
+              <a class="item" href="/library/labs/"><i class="lab icon"></i> Labs</a>
+              <a class="item" href="/library/incubators/"><i class="leaf icon"></i> Incubators </a>
+              <a class="item" href="/library/groups/"><i class="users icon"></i> Groups</a>
+              <a class="item" href="/library/networks/"><i class="share alternate icon"></i> Networks </a>
+              <a class="item" href="/library/events/"><i class="ticket icon"></i> Events</a>
+              <a class="item" href="/library/others/"><i class="umbrella icon"></i> Others </a>
+            </div>
+          </div>
+
+          <div class="ui dropdown item">
+            <b>DOCUMENTATION</b>
+            <i class="angle down icon"></i>
+            <div class="menu">
+              <a class="item" href="/docs/introduction/"><i class="flag outline icon"></i> Introduction</a>
+              <a class="item" href="/docs/about/"><i class="info circle icon"></i> About Us</a>
+              <a class="item" href="/docs/copyright/"><i class="copyright icon"></i> Copyright </a>
+              <a class="item" href="/docs/basics/"><i class="puzzle icon"></i> The Basics</a>
+              <a class="item" href="/docs/support/"><i class="life ring icon"></i> Support </a>
+              <a class="item" href="/docs/tutorials/"><i class="book icon"></i> Tutorials</a>
+              <a class="item" href="/docs/updates/"><i class="announcement icon"></i> Updates</a>
+            </div>
+          </div>
+
+          <a class="item" href="https://github.com/DIYbiosphere/sphere"><i class="github icon"></i> <b>GITHUB</b></a>
+          <a class="item" href="https://diybio.org"> <img class="diybio-logo" src="https://diybiology.files.wordpress.com/2011/10/diybio-logo-black-90x60px.png"><b>DIYBIO</b></a>
+        </div> <!-- end right menu -->
+        </div> <!-- end container -->
+      </div> <!-- end menu -->
+    </nav></header><main class="Site-content"><div class="ui grid container xo top padding">
+
+  <div class="four wide column">
+      <aside><div class="ui fluid accordion vertical menu">
+  <!-- DocSearch Input -->
+  <div class="item">
+    <div class="ui left icon fluid input" role="search">
+      <input id="docsearch" type="search" placeholder="Search Documentation"><i class="search icon"></i>
+    </div>
+  </div>
+  <!-- Introduction -->
+  <div class="item">
+    <div class="title">
+<i class="dropdown icon"></i> <b><i class="flag outline icon"></i> Introduction</b>
+</div>
+    <div class="content menu">
+      <a class="item" id="sb_overview" href="/docs/introduction/overview/">Overview</a>
+      <a class="item" id="sb_getting-started" href="/docs/introduction/getting-started/">Getting Started</a>
+    </div>
+  </div>
+  <!-- About -->
+  <div class="item">
+    <div class="title">
+<i class="dropdown icon"></i>
+       <b><i class="info circle icon"></i> About Us</b>
+</div>
+      <div class="content menu">
+        <a class="item" id="sb_organization" href="/docs/about/organization/">Organization</a>
+        <a class="item" id="sb_community" href="/docs/about/community/">Development Community</a>
+        <a class="item" id="sb_coc" href="/docs/about/coc/">Code of Conduct</a>
+        <a class="item" id="sb_communication" href="/docs/about/communication/">Communication</a>
+      </div>
+  </div>
+  <!-- Copyright -->
+  <div class="item">
+    <div class="title">
+<i class="dropdown icon"></i>
+       <b><i class="copyright icon"></i>Copyright</b>
+</div>
+      <div class="content menu">
+        <a class="item" id="sb_terms-of-use" href="/docs/copyright/terms-of-use/">Terms of Use</a>
+        <a class="item" id="sb_contributor-terms" href="/docs/copyright/contributor-terms/">Contributor Terms</a>
+        <a class="item" id="sb_cc0" href="/docs/copyright/cc0/">Library Copyright (CC0)</a>
+        <a class="item" id="sb_mit" href="/docs/copyright/mit/">Software Copyright (MIT)</a>
+      </div>
+  </div>
+  <!-- Basics -->
+  <div class="item">
+    <div class="title">
+<i class="dropdown icon"></i>
+      <b><i class="puzzle icon"></i>The Basics</b>
+</div>
+    <div class="content menu">
+      <a class="item" id="sb_library" href="/docs/basics/library/">Library</a>
+      <a class="item" id="sb_development" href="/docs/basics/software/">Software</a>
+      <a class="item" id="sb_documentation" href="/docs/basics/documentation/">Documentation</a>
+      <a class="item" id="sb_design" href="/docs/basics/design/">Design</a>
+    </div>
+  </div>
+  <!-- Support -->
+  <div class="item">
+    <div class="title">
+<i class="dropdown icon"></i>
+      <b><i class="life ring icon"></i>Support</b>
+</div>
+    <div class="content menu">
+      <a class="item" id="sb_contributing" href="/docs/support/contributing/">Contributing Guide</a>
+      <a class="item" id="sb_workflow" href="/docs/support/workflow/">Ticket Workflow</a>
+      <a class="item" id="sb_eli5" href="/docs/support/eli5/">ELI5 Guide</a>
+      <a class="item" id="sb_faq" href="/docs/support/faq/">FAQ</a>
+      <a class="item" id="sb_get-help" href="/docs/support/help/">Getting Help</a>
+    </div>
+  </div>
+  <!-- Tutorials -->
+  <div class="item">
+    <div class="title">
+<i class="dropdown icon"></i>
+      <b><i class="book icon"></i>Tutorials</b>
+</div>
+    <div class="content menu">
+      <a class="item" id="sb_add-entry" href="/docs/tutorials/add-entry/">Adding Entries</a>
+      <a class="item" id="sb_edit-entry" href="/docs/tutorials/edit-entry/">Editing Entries</a>
+      <a class="item" id="sb_note-copyright" href="/docs/tutorials/noting-copyright/">Noting Copyright</a>
+      <a class="item" id="sb_install" href="/docs/tutorials/install/">Installing Locally</a>
+      <a class="item" id="sb_using-atom" href="/docs/tutorials/using-atom/">Using Atom</a>
+      <a class="item" id="sb_using-github" href="/docs/tutorials/using-github/">Using Github</a>
+    </div>
+  </div>
+  <!-- Updates -->
+  <div class="item">
+    <div class="title">
+<i class="dropdown icon"></i>
+      <b><i class="announcement icon"></i>Updates</b>
+</div>
+    <div class="content menu">
+      <a class="item" id="sb_blog" href="/docs/updates/blog/">Blog</a>
+      <a class="item" id="sb_roadmap" href="/docs/updates/roadmap/">Roadmap</a>
+      <a class="item" id="sb_changelog" href="/docs/updates/changelog/">Changelog</a>
+    </div>
+  </div>
+</div> <!-- close accordion menu -->
+
+      </aside>
+</div>
+
+  <div class="twelve wide column">
+    <div id="docs-context">
+        <div class="ui two column grid">
+
+    
+    <!-- Breadcrumb for Documentation -->
+    <div class="column xo paddingless">
+      <div class="ui breadcrumb">
+          <a class="section" href="/docs/">Documentation</a>
+          
+          <div class="divider"> / </div>
+          <a class="section" href="/docs/introduction/">Introduction</a>
+          
+          
+          <div class="divider"> / </div>
+          <div class="active section">Overview of the DIYbiosphere</div>
+      </div>
+    </div>
+    
+
+    <div class="column right aligned xo paddingless">
+      Latest commit: 13 Jan 2017
+    </div>
+
+
+    <div class="column xo padding top without middle aligned">
+      <i class="wait icon"></i>
+        
+        
+           2 mins read
+        
+    </div>
+
+
+
+    <div class="column right aligned xo padding top without">
+      <div class="ui icon compact tiny menu">
+        <a class="item" data-tooltip="Edit this Page on GitHub" href="https://github.com/DIYbiosphere/sphere/blob/master/docs/introduction/overview.md" target="_blank">
+          <i class="edit icon"></i>
+        </a>
+        <a class="item" data-tooltip="Submit a Bug Report" href="https://github.com/DIYbiosphere/sphere/blob/master/docs/introduction/overview.md" target="_blank">
+          <i class="bug icon"></i>
+        </a>
+        <a class="item" data-tooltip="Select a Language">
+          <i class="world icon"></i>
+            <div class="ui inline dropdown">
+              <div class="text">EN</div>
+              <i class="dropdown icon"></i>
+              <div class="menu">
+                <div class="header">Select language</div>
+                <div class="active item" data-text="EN">
+<i class="gb flag"></i>English</div>
+                <div class="item" data-text="FR">
+<i class="fr flag"></i>Français</div>
+                <div class="item" data-text="ES">
+<i class="es flag"></i>Español</div>
+                <div class="item" data-text="DE">
+<i class="de flag"></i>Deutsche</div>
+                <div class="item" data-text="PT">
+<i class="de flag"></i>Deutsche</div>
+
+              </div>
+            </div>
+        </a>
+      </div>
+    </div>
+  </div> <!-- close row -->
+
+      <article class="xo padding top twofold"><h1 class="ui header xo padding bottom">
+            Overview of the DIYbiosphere
+            <div class="ui fitted divider"></div>
+            <div class="sub header">A short summary on the DIYbiosphere project</div>
+          </h1>
+        <p>The DIYbiosphere is a participatory project to create a <strong>library</strong> of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. It has two main goals. One is to have a shared and common platform for the DIYbio community; to increase visibility of initiatives and connect people and ideas in all its possibilities. And two is to gather data about the DIYbio community; to map and visualize it in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.</p>
+
+<p>The library replaces the simple list of DIYbio labs indexed in the <a href="https://diybio.org/local/" title="Go to the local list of DIYbio.org">Local</a> section in the <a href="https://diybio.org/" title="Go to DIYbio.org homepage">DIYbio</a> website as a more accurate and distributed way of cataloguing DIYbio labs and other initiatives. The library is intended to function similarly to a wiki, with descriptive content and data displayed in a box. Instead of using the wiki software we use GitHub Pages, which allows for a more flexible and open development, and has the benefit of using simple text files in Markdown syntax for writing the entries. If you want to get technical your can read more in our <a href="/docs/basics/software/">Software</a> section.</p>
+
+<p>The development of the project is directed by members of the <a href="/docs/about/community/">development community</a>. Get involved and <a href="/docs/support/contributing/#membership-request">Join us</a>! <img class="emoji" title=":metal:" alt=":metal:" src="https://assets-cdn.github.com/images/icons/emoji/metal.png" height="20" width="20" align="absmiddle"> However, the project is completely open(-source)*: anyone can (re)use the library on our website at <a href="http://sphere.diybio.org" title="Go to DIYbiosphere homepage">sphere.diybio.org</a>, and contribute to it in our repository at <a href="https://github.com/DIYbiosphere/sphere" title="Go to DIYbiosphere library repository">DIYbiosphere/sphere</a> on GitHub. Users of the library can search for DIYbio initiatives; to learn about/from them, or connect with them. Contributors can <a href="/docs/tutorials/add-entry/" title="How to add an entry">add</a> an entry for their own initiative or another you know of, <a href="/docs/tutorials/edit-entry/" title="How to edit an entry">edit</a> an existing entry, or even tackle one of our <a href="https://github.com/DIYbiosphere/sphere/issues" title="Go to our GitHub Issues">issues</a>.</p>
+
+<p>See our <a href="/docs/introduction/getting-started/" title="How to use and contribute to the library">Getting Started</a>  guide to kickstart you into <em>using</em> and <em>contributing</em> to the project. See our <a href="/docs/support/contributing/">Contributing Guide</a> for how to submit issues, and pull-requests. We also have have an <a href="/docs/support/eli5-guide/">ELI5 guide</a> (Explain Like I’m 5) for the utterly confused.</p>
+
+<hr>
+<p>* See our <a href="/docs/copyright/terms-of-use/">Terms of Use</a> and our <a href="/docs/copyright/contributor-terms/">Contributor Terms</a>.</p>
+
+
+      </article>
+</div>
+  </div>
+
+</div> <!-- close grid container -->
+
+      </main><footer><div class="ui padded grid xo top padding twofold">
+
+<!-- Buttons -->
+    <div class="ui divider"></div>
+    <div class="row xo top padding">
+      <div class="ui container center aligned">
+          <div class="ui horizontal list">
+            <div class="item">
+              <a href="https://github.com/DIYbiosphere/sphere"><img src="https://img.shields.io/github/stars/diybiosphere/sphere.svg?style=social&amp;label=Star&amp;maxAge=2592000" alt="Star diybiosphere/sphere!"></a>
+            </div>
+            <div class="item">
+              <a href="https://github.com/DIYbiosphere/sphere"><img src="https://img.shields.io/github/forks/diybiosphere/sphere.svg?style=social&amp;label=Fork&amp;maxAge=2592000" alt="Fork diybiosphere/sphere!"></a>
+            </div>
+            <div class="item">
+              <a href="https://gratipay.com/DIYbiosphere/"><img src="https://img.shields.io/gratipay/DIYbiosphere.svg?style=social&amp;label=Donate&amp;maxAge=2592000" alt="Donate to us!"></a>
+            </div>
+            <div class="item slackin">
+              <script src="https://diybiosphere.herokuapp.com/slackin.js" async defer></script>
+</div>
+            <div class="item">
+              <a href="https://twitter.com/DIYbiosphere"><img src="https://img.shields.io/twitter/follow/diybiosphere.svg?style=social&amp;label=Follow&amp;maxAge=2592000" alt="Follow @diybiosphere"></a>
+            </div>
+        </div>
+      </div> <!-- close grid container -->
+    </div> <!-- close row -->
+<!-- Useful links -->
+    <div class="row border-footer" style="background-color: #F3F3F3;">
+      <div class="ui equal width relaxed grid container">
+        <div class="column">
+          <div class="ui vertical text menu">
+            <div class="ui header item">DIYbiosphere</div>
+            <a class="item" href="/docs/introduction/getting-started/">Getting Started</a>
+            <a class="item" href="/docs/introduction/overview/">Overview</a>
+            <a class="item" href="/docs/about/organization/">Organization</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui vertical text menu">
+            <div class="ui header item">Contribute</div>
+            <a class="item" href="/docs/tutorials/add-entry">Add a New Entry</a>
+            <a class="item" href="/docs/tutorials/edit-entry">Edit an Entry</a>
+            <a class="item" href="https://github.com/DIYbiosphere/sphere/issues">Jump into our Issues</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui vertical text menu">
+            <div class="ui header item">Learn More</div>
+            <a class="item" href="/docs/support/contributing/">Contributing Guide</a>
+            <a class="item" href="/docs/support/writing/">On Writing Entries</a>
+            <a class="item" href="/docs/support/eli5/">For the GitHub Confused</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui vertical text menu">
+            <div class="ui header item">Connect with Us</div>
+            <a class="item" href="/docs/support/contributing/#membership-request">Become a member!</a>
+            <a class="item" href="https://diybiosphere.herokuapp.com/">Join our Slack</a>
+            <a class="item" href="https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&amp;utm_medium=link&amp;utm_campaign=share-link">Open Gitter Chat</a>
+          </div>
+        </div>
+        <!-- Supported by -->
+        <div class="column aligned ">
+          <div class="ui vertical text menu">
+            <div class="ui header item">Supported by</div>
+              <a class="item" href="https://diybio.org"><img class="ui image" src="/assets/img/diybio.png"></a>
+              <a class="item" href="http://www.unige.ch"><img class="ui image" src="/assets/img/unige.png"></a>
+            </div>
+        </div>
+        <div class="two wide column right middle aligned">
+          <img class="ui image" src="/assets/img/coded-and-powered.png">
+</div>
+      </div> <!-- close grid container -->
+    </div> <!-- close row -->
+
+<!-- Legal footer -->
+    <div class="row" style="background-color: #F3F3F3;">
+      <div class="ui container">
+        <div class="ui small text stacking menu">
+          <a class="fitted item" rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><i class="cc cc-cc"></i><i class="cc cc-zero"></i></a>
+          <a class="disabled active item">Except where</a>
+          <a href="/docs/tutorials/noting-copyright/" class="fitted item">otherwise noted</a>
+          <a class="active fitted item">, content on this site is dedicated to the public domain</a>
+          <div class="right menu">
+            <a class="item" href="/docs/copyright/terms-of-use/">Terms of Use</a>
+            <a class="item" href="/docs/copyright/contributor-terms/">Contributor Terms</a>
+            <a class="item" href="/docs/about/coc/">Code of Conduct</a>
+            <a class="item" href="/docs/support/faq/">FAQ</a>
+            <a class="item" href="/docs/about/communication/">Contact</a>
+          </div>
+        </div>
+      </div> <!-- close grid container -->
+    </div> <!-- close row -->
+
+  </div> <!-- close padded grid -->
+
+</footer><!-- Google Analytics --><script src="https://www.google.com/jsapi"></script><!-- JQuery & Semantic UI --><script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script><script src="/semantic/dist/semantic.min.js"></script><script type="text/javascript">$('.ui.dropdown').dropdown();</script><script type="text/javascript">$('.coded-with-love').popup({inline: true,hoverable: true,position: 'top left',delay: {hide: 300}});</script><!-- Algolia search & components --><script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script><script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script><script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch-preact.min.js"></script><script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.min.js"></script><link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css">
+<!-- Embeded Gitter chat --><script>((window.gitter = {}).chat = {}).options = { room: 'DIYbiosphere/sphere', activationElement: false };</script><script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script><!-- Main JS file --><script type="text/javascript" src="/assets/js/main.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script><script type="text/javascript">$('.menu .item').tab();</script><script type="text/javascript">$('.tabular.menu .item').tab();</script><script type="text/javascript">$('.ui.accordion').accordion({onOpen: function (item) {setCookie('acordionIndex',this.index);}}).accordion('open', getCookie('acordionIndex'));</script><script type="text/javascript" src="/assets/js/docs.js"></script>
+</body>
+</html>
